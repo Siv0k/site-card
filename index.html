@@ -5,15 +5,126 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Site-card</title>
-   <style>
-      * {
-         margin: 0;
-         padding: 0;
-      }
-   </style>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="shortcut icon" href="">
+   <link href="https://fonts.googleapis.com/css2?family=Joan&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="norm.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <script defer src="/jquery-3.6.0.slim.min.js"></script>
+   <script defer src="/script.js"></script>
 </head>
 <body>
-   <h1>Сайт визитка с описанием моих <b>hard skils</b> и <b>soft skils</b></h1>
+   <div class="header header-container">
+      <div class="wrapper">
+         <div class="menu">
+      <a href="#" class="menu-btn"> 
+         <img class="img neon" src="/photo/logo.svg" alt="Siv0k's logo">
+      </a>
+      <nav class="menu-list">
+         <a href="#about">Обо мне</a>
+         <a href="#education">Образование</a>
+         <a href="#hobbies">Увлечения</a>
+         <a href="#time">Свободное время</a>
+         <a href="#future">Планы на будущее</a>
+      </nav>
+         </div>
+      </div>
+   <h1 class="zag">Siv0k's card-site</h1>
+   </div>
+   <div class="hero">
+      <div class="container hero_container">
+        <div class="hero_about">
+        <h1 id="about" class="hero_title">
+          Обо мне
+        </h1>
+        <p class="hero_description">
+         Здравствуйте, меня зовут Артёменко Владислав Сергеевич и мне 18 лет. Я родился в Полоцке, где проживаю до настоящего времени.
+         Я ответственный, проактивный, стрессоустойчивый, коммуникабельный, честный. Мои сильные стороны — хорошие управленческие и лидерские навыки, клиентоориентированность, системное мышление, позитивный настрой. Умею работать в режиме многозадачности и в команде.
+         Я может быть и не так опытен, но я человек, с которым вам захочется познакомиться и поработать.
+      </p>  
+        </div>
+        <div class="hero_box">
+          <img class="hero_box-img" src="/photo/12.jpg" alt="man">
+        </div>
+      </div>
+    </div>
+    <div class="education">
+      <h1 id="education" class="zage">
+         Образование
+      </h1>
+      <div class="gallery">
+         <img src="/photo/school.jpg" alt="school">
+         <img src="/photo/PSU.jpg" alt="universite">
+      </div> 
+      <div class="desc">
+         <p>Учился в средней школе №16 города Полоцка с 1 по 11 класс. После 9-го класса пошёл в направление ФИЗ-МАТ. По окончании школы средний бал был 8.5</p>
+         <p>На данный момент обучаюсь в Полоцком Государственном Университете на специальности Вычислительные машины, системы и сети.</p>    
+      </div>
+    </div>
+    <div class="hobbies">
+      <h1 id="hobbies" class="hob">Увлечения</h1>
+      <img src="/photo/voleyball.jpg" alt="voleyball">
+      <img src="/photo/cars.jpg" alt="car">
+      <img src="/photo/code.jpg" alt="code">
+      <div class="hobD">
+      <p>Спортом я занимался всю свою жизнь, но никак не мог найти нужное направление. В итоге в 9 классе пошёл на волейбол и понял, что это моё. Участвовал в соревнованиях и в основном это были победы)  </p>
+      <p>Мне с детсва нравятся машины, в особенности BMW. Водить умею с 14 лет. Учиться на права пошёл за 3 месяца до восемнадцатилетия, поэтому в 18 был уже с правами. </p>
+      <p>Программированием занимаюсь относительно недавно. На данный момент прочитал книгу Джона Дакета по CSS и HTML. Планирую дальше развиваться в сфере Frontend и изучить JS и фрэймворки к нему.</p>
+      </div>
+   </div>
+   <div class="time">
+      <div class="time_container">
+        <div class="time_about">
+        <h1 id="time" class="time_title">
+          Свободное время
+        </h1>
+        <p class="time_description">
+         Свободное время я люблю проводить с друзьями. 
+         Мы часто ездим на природу и ходим в баню.
+         Правда в последнее время стали реже видеться, так как учимся и работаем. 
+         Сейчас я подрабатываю  в сфере окон, помогаю ставить окна. 
+         Но больше всего я люблю свою машину sunshine(peugeot 605 1997г. 2.0 бензин 135 л/с. пригнана с Франции в 2005 году и была в одних руках пока я её не купил в 2022 году ).
+         Мне нравится выезжать на ней и просто кататься по ночному городу. 
+         У неё есть один минус и он на аккумуляторе)   
+        </p>  
+        </div>
+        <div class="time_box">
+          <img class="time_box-img" src="/photo/love.jpg" alt="My-car">
+        </div>
+      </div>
+    </div>
+    <div class="future">
+      <h1 id="future">Планы на будущее</h1>
+      <p>
+         В планах на будущее у меня развиваться в сфере FrontEnd и устроиться в хорошую компанию. 
+         Одновременно с этим в планах довести Пежо до идеала.
+         В будущем собираюсь переехать в Прагу и конечно же забрать туда свою любимую Пежо)))))
+      </p>
+      <img src="/photo/praga.jpg" alt="praga">
+    </div>
+    <footer class="footer">
+      <div class="footer-top">
+         <div class="footer-contacts-item">
+            <span class="footer-contacts-text">phone</span>
+            <a href="tel:+375333454748" class="footer-contacts-value">+375 33 345 47 48</a>
+         </div>
+         <div class="footer-contacts-item">
+            <span class="footer-contacts-text">address</span>
+            <address class="footer-contacts-value">Молодёжная 171/3</address>
+         </div>
+         <div class="footer-column">
+            <h3 class="footer-title">&copy Siv0k's company</h3>
+            <p class="footer-text">Made for iTechArt</p>
+            <a href="malito:artvlad2003@gmail.com" class="footer-mail">artvlad2003@gmail.com</a>
+            <ul class="social">
+               <li class="social-item inst"><a href="https://instagram.com/siv0k?igshid=YmMyMTA2M2Y=" class="social-link social-link-inst" target="_blank" aria-label="link to instagram"></a></li>
+               <li class="social-item vk"><a href="http://vk.com/siv0k" class="social-link social-link-vk" target="_blank" aria-label="link to vk"></a></li>
+               <li class="social-item tg"><a href="HTTPS://t.me/Siv0k" class="social-link social-link-tg" target="_blank" aria-label="link to telegram"></a></li>
+            </ul>
+         </div>
+      </div>
 </body>
-<script src="script.js"></script>
 </html>

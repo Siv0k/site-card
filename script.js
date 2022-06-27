@@ -1,2 +1,8 @@
-document.body.innerHTML = '<h1> Hello from JavaScript</h1>'
-console.log('test 2')
+
+$('.menu-btn').on('click', function(e) {
+   e.preventDefault();
+   $('.menu').toggleClass('menu_active');
+})
+
+
+
